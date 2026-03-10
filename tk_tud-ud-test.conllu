@@ -1,0 +1,1544 @@
+# sent_id = cairo-1
+# text = Gyz dostunyň adyna hat ýazdy.
+# text[en] = The girl wrote a letter to her friend.
+# text[tr] = Kız arkadaşına mektup yazdı.
+1	Gyz	gyz	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	dostunyň	dost	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
+3	adyna	ady	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+4	hat	hat	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	ýazdy	ýaz	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-2
+# text = Ýagyş ýagýar öýdýärin.
+# text[en] = I think that it is raining.
+# text[tr] = Yağmur yağdığını zannediyorum.
+1	Ýagyş	ýagyş	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	ýagýar	ýag	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+3	öýdýärin	öýt	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-3.1
+# text = Ol çilim çekmegi we arак içmegi taşlamagy synanyşdy.
+# text[en] = He tried to stop smoking and drinking.
+# text[tr] = O sigara ve alkol içmeyi bırakmayı denedi.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+2	çilim	çilim	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	çekmegi	çek	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	7	obj	_	_
+4	we	we	CCONJ	_	_	6	cc	_	_
+5	arак	arак	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	içmegi	iç	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	3	conj	_	_
+7	taşlamagy	taşla	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
+8	synanyşdy	synanyş	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = cairo-3.2
+# text = Ol çilim çekmegi we arak içmegi taşlamaga synanyşdy.
+# text[en] = He tried to stop smoking and drinking.
+# text[tr] = Sigara ve alkol içmeyi bırakmayı denedi.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	çilim	çilim	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	çekmegi	çek	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	8	xcomp	_	_
+4	we	we	CCONJ	_	_	7	cc	_	_
+5	arak	arak	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	içmegi	iç	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	3	conj	_	_
+7	taşlamaga	taşla	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	9	xcomp	_	_
+8	synanyşdy	synanyş	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = cairo-4.1
+# text = Sen gitmek isleýärsiňmi?
+# text[en] = Do you want to go?
+# text[tr] = Sen gitmek istiyor musun?
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	gitmek	git	VERB	_	VerbForm=Inf	3	xcomp	_	_
+3	isleýärsiňmi	isle	VERB	_	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-4.2
+# text = Barmaq isleýärsiňizmi?
+# text[en] = Do you want to go?
+# text[tr] = Gitmek istiyor musun?
+1	Barmaq	bar	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	2	xcomp	_	_
+2	isleýärsiňizmi	isle	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo-5
+# text = Sam, penjiräni aç!
+# text[en] = Sam, open the window!
+# text[tr] = Sam, pencereyi aç!
+1	Sam	Sam	PROPN	_	Case=Nom|Number=Sing	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	penjiräni	penjire	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	aç	aç	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-6.1
+# text = Ol adamyna awtoulagyny ýuwdurdy.
+# text[en] = She made her husband wash the car.
+# text[tr] = O kocasına arabayı yıkattırdı.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	adamyna	adam	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+3	awtoulagyny	awtoula	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+4	ýuwdurdy	ýuw	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-6.2
+# text = Adamyna awtoulagyny ýuwdurdy.
+# text[en] = She made her husband wash the car.
+# text[tr] = Kocasına arabayı yıkattırdı.
+1	Adamyna	adam	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+2	awtoulagyny	awtoula	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	ýuwdurdy	ýuw	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-7
+# text = Peteriň goňşusy diwary gyzyl boýady.
+# text[en] = Peter's neighbor painted the fence red.
+# text[tr] = Peter'in komşusu çiti kırmızı boyadı.
+1	Peteriň	Peter	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	goňşusy	goňşy	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+3	diwary	diwar	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+4	gyzyl	gyzyl	ADJ	_	_	5	xcomp	_	_
+5	boýady	boýa	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-9
+# text = Meri bürünç aldy, Piter kümüş, Jeýn altyn.
+# text[en] = Mary won bronze, Peter silver, and Jane gold.
+# text[tr] = Mary bronz kazandı, Peter gümüş, Jane altın.
+1	Meri	Meri	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	bürünç	bürünç	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	aldy	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Piter	Piter	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
+6	kümüş	kümüş	NOUN	_	Case=Nom|Number=Sing	5	orphan	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Jeýn	Jeýn	PROPN	_	Case=Nom|Number=Sing	3	conj	_	_
+9	altyn	altyn	NOUN	_	Case=Nom|Number=Sing	8	orphan	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-10
+# text = Iguazu uly ýurtmy ýa kiçi ýurtmy?
+# text[en] = Is Iguazu a big or a small country?
+# text[tr] = İguazu büyük bir ülke mi, yoksa küçük mü?
+1	Iguazu	Iguazu	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	uly	uly	ADJ	_	_	3	amod	_	_
+3	ýurtmy	ýurt	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+4	ýa	ýa	CCONJ	_	_	6	cc	_	_
+5	kiçi	kiçi	ADJ	_	_	6	amod	_	_
+6	ýurtmy	ýurt	NOUN	_	Case=Nom|Number=Sing	3	conj	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-11
+# text = Ne Piter Smit, ne-de Meri Braun saýlanyp bilner.
+# text[en] = Neither Peter Smith nor Mary Brown could be selected.
+# text[tr] = Ne Peter Smith ne de Mary Brown seçilebilir.
+1	Ne	ne	CCONJ	_	_	2	cc	_	_
+2	Piter	Piter	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+3	Smit	Smit	PROPN	_	Case=Nom|Number=Sing	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	ne-de	ne-de	CCONJ	_	_	6	cc	_	_
+6	Meri	Meri	PROPN	_	Case=Nom|Number=Sing	2	conj	_	_
+7	Braun	Braun	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
+8	saýlanyp	saýla	VERB	_	Polarity=Pos|VerbForm=Conv|Voice=Pass	9	advcl	_	_
+9	bilner	bil	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = cairo-12.1
+# text = Olar kemiň ýazandygyny asla bilmeýärler.
+# text[en] = They have no idea who wrote it.
+# text[tr] = Onlar kimin yazdığını hiç bilmiyorlar.
+1	Olar	ol	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	kemiň	kim	PRON	_	Case=Gen|Number=Sing|PronType=Int	3	nsubj	_	_
+3	ýazandygyny	ýaz	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	5	ccomp	_	_
+4	asla	asla	ADV	_	_	5	advmod	_	_
+5	bilmeýärler	bil	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-12.2
+# text = Kimin ýazandygyny asla bilmeýärler.
+# text[en] = They have no idea who wrote it.
+# text[tr] = Kimin yazdığını hiç bilmiyorlar.
+1	Kimin	kim	PRON	_	Case=Gen|Number=Sing|PronType=Int	2	nsubj	_	_
+2	ýazandygyny	ýaz	VERB	_	Case=Acc|Number[psor]=Sing|Person[psor]=3|VerbForm=Part	4	ccomp	_	_
+3	asla	asla	ADV	_	_	4	advmod	_	_
+4	bilmeýärler	bil	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-13.1
+# text = Sen näme seredýärsiň?
+# text[en] = What are you looking at?
+# text[tr] = Sen neye bakıyorsun?
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	näme	näme	PRON	_	Case=Nom|PronType=Int	3	obl	_	_
+3	seredýärsiň	seret	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-13.2
+# text = Näme seredýärsiň?
+# text[en] = What are you looking at?
+# text[tr] = Neye bakıyorsun?
+1	Näme	näme	PRON	_	Case=Nom|PronType=Int	2	obl	_	_
+2	seredýärsiň	seret	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = cairo-14.1
+# text = Sen haçan gelip biljekdigiňi öýdýärsiň?
+# text[en] = When do you think you can come?
+# text[tr] = Sen ne zaman gelebileceğini zannediyorsun?
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+2	haçan	haçan	ADV	_	PronType=Int	3	advmod	_	_
+3	gelip	gel	VERB	_	VerbForm=Conv	4	advcl	_	_
+4	biljekdigiňi	bil	VERB	_	Case=Acc|Number[psor]=Sing|Person[psor]=2|Tense=Fut|VerbForm=Vnoun	5	ccomp	_	_
+5	öýdýärsiň	öýt	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-14.2
+# text = Haçan gelip biljekdigiňi öýdýärsiň?
+# text[en] = When do you think you can come?
+# text[tr] = Ne zaman gelebileceğini zannediyorsun?
+1	Haçan	haçan	ADV	_	PronType=Int	2	advmod	_	_
+2	gelip	gel	VERB	_	VerbForm=Conv	3	advcl	_	_
+3	biljekdigiňi	bil	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Fut|VerbForm=Vnoun	4	ccomp	_	_
+4	öýdýärsiň	öýt	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-15.1
+# text = Ol awtoulag satyn aldy, ýöne dogany diňe welosiped.
+# text[en] = He bought a car but his brother just a bike.
+# text[tr] = O araba aldı ama erkek kardeşi sadece bisiklet.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	awtoulag	awtoulag	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+3	satyn	satyn	ADV	_	_	4	compound:lvc	_	_
+4	aldy	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	ýöne	ýöne	CCONJ	_	_	7	cc	_	_
+7	dogany	dogan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	conj	_	_
+8	diňe	diňe	ADV	_	_	9	advmod	_	_
+9	welosiped	welosiped	NOUN	_	Case=Nom|Number=Sing	7	orphan	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-15.2
+# text = Ol awtoulag satyn aldy, ýöne dogany diňe welosiped.
+# text[en] = He bought a car but his brother just a bike.
+# text[tr] = Araba aldı ama erkek kardeşi sadece bisiklet.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	awtoulag	awtoulag	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+3	satyn	satyn	ADV	_	_	4	compound:lvc	_	_
+4	aldy	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	ýöne	ýöne	CCONJ	_	_	9	cc	_	_
+7	dogany	dogan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	conj	_	_
+8	diňe	diňe	ADV	_	_	9	advmod	_	_
+9	welosiped	welosiped	NOUN	_	Case=Nom|Number=Sing	7	orphan	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = cairo-16
+# text = Piter we Merýem biri-birini gujakladylar we ondan soň otagdan çykdylar.
+# text[en] = Peter and Mary hugged each other and then left the room.
+# text[tr] = Peter ve Mary birbirlerini kucakladılar ve ondan sonra odadan çıktılar.
+1	Piter	Piter	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	we	we	CCONJ	_	_	3	cc	_	_
+3	Merýem	Merýem	PROPN	_	Case=Nom|Number=Sing	1	conj	_	_
+4	biri-birini	biri-biri	PRON	_	Case=Acc|Number=Sing|PronType=Rcp	5	obj	_	_
+5	gujakladylar	gujak	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+6	we	we	CCONJ	_	_	10	cc	_	_
+7	ondan	ol	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Dem	10	obl	_	_
+8	soň	soň	ADP	_	_	7	case	_	_
+9	otagdan	otag	NOUN	_	Case=Abl|Number=Sing	10	obl	_	_
+10	çykdylar	çyk	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-17.1
+# text = Ol saçyny ýasamaly eken, ýöne näme üçindir şol gün ýasamady.
+# text[en] = She should have been doing her hair but for some reason she wouldn't that day.
+# text[tr] = O saçını yapıyor olmalıydı ama nedense o gün yapmadı.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	saçyny	saç	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	ýasamaly	ýasa	VERB	_	Mood=Nec	0	root	_	_
+4	eken	eken	AUX	_	Evident=Nfh|Tense=Past	3	aux	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	ýöne	ýöne	CCONJ	_	_	10	cc	_	_
+7	näme	näme	PRON	_	PronType=Int	8	obl	_	_
+8	üçindir	üçin	ADP	_	_	10	advmod	_	_
+9	şol	şol	DET	_	Definite=Def|PronType=Dem	10	det	_	_
+10	gün	gün	NOUN	_	Case=Nom|Number=Sing	11	obl:tmod	_	_
+11	ýasamady	ýasa	VERB	_	Polarity=Neg|Tense=Past	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-17.2
+# text = Ol saçyny düzmeli eken, ýöne näme üçindir şol gün düzmedi.
+# text[en] = She should have been doing her hair but for some reason she wouldn't that day.
+# text[tr] = Saçını yapıyor olmalıydı ama nedense o gün yapmadı.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	saçyny	saç	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	düzmeli	düz	VERB	_	Mood=Nec|VerbForm=Fin	0	root	_	_
+4	eken	eken	AUX	_	Evident=Nfh	3	aux	_	_
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	ýöne	ýöne	CCONJ	_	_	11	cc	_	_
+7	näme	näme	PRON	_	Case=Nom|PronType=Int	8	obl	_	_
+8	üçindir	üçin	ADP	_	_	11	advmod	_	_
+9	şol	şol	DET	_	Definite=Def|PronType=Dem	10	det	_	_
+10	gün	gün	NOUN	_	Case=Nom|Number=Sing	11	obl:tmod	_	_
+11	düzmedi	düz	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	3	conj	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-18
+# text = Men ýetişip bilmedim, sebäbi ol gaty çalt ylgady.
+# text[en] = I wasn't able to keep up, because he ran too fast.
+# text[tr] = Ayak uyduramadım çünkü fazla hızlı koştu.
+1	Men	men	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ýetişip	ýetiş	VERB	_	VerbForm=Conv	3	compound:lvc	_	_
+3	bilmedim	bil	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	sebäbi	sebäp	SCONJ	_	_	9	mark	_	_
+6	ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	gaty	gaty	ADV	_	_	8	advmod	_	_
+8	çalt	çalt	ADV	_	_	9	advmod	_	_
+9	ylgady	ylga	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = cairo-19
+# text = Bu hat Peterden we düýn ýetirildi.
+# text[en] = This letter is from Peter and it was delivered yesterday.
+# text[tr] = Bu mektup Peter'den ve dün iletildi.
+1	Bu	bu	DET	_	Definite=Def|PronType=Dem	2	det	_	_
+2	hat	hat	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+3	Peterden	Peter	PROPN	_	Case=Abl|Number=Sing	6	obl	_	_
+4	we	we	CCONJ	_	_	5	cc	_	_
+5	düýn	düýn	ADV	_	_	6	advmod	_	_
+6	ýetirildi	ýetir	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = cairo-20.1
+# text = Ol Fransiýanyň paýtagty Parižde ulaldy.
+# text[en] = She grew up in Paris, the capital of France.
+# text[tr] = O Fransanın başkenti Paris'te büyüdü.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	Fransiýanyň	Fransiýa	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	paýtagty	paýtagt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nmod	_	_
+4	Parižde	Pariž	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
+5	ulaldy	ulal	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = cairo-20.2
+# text = Fransiýanyň paýtagty Parižde ulaldy.
+# text[en] = She grew up in Paris, the capital of France.
+# text[tr] = Fransanın başkenti Paris'te büyüdü.
+1	Fransiýanyň	Fransiýa	PROPN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	paýtagty	paýtagt	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nmod	_	_
+3	Parižde	Pariž	PROPN	_	Case=Loc|Number=Sing	4	obl	_	_
+4	ulaldy	ulalmak	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = udtw23-3
+# text = Ýatyp galjak myhmançylyk gapyny kakypdy, ýöne öý eýesi henizem arassalaýardy, restorandan sargyt eden nahary bolsa entek gelmändi.
+# text[en] = The overnight guest knocked on the door, but the host was still cleaning, and the food she had ordered from the restaurant was yet to come.
+# text[tr] = Yatılı kalacak misafir kapıyı çalmıştı ama ev sahibi hala temizlik yapıyordu, restorandan sipariş ettiği yemek ise daha gelecekti.
+1	Ýatyp	ýat	VERB	_	VerbForm=Conv	2	advcl	_	_
+2	galjak	gal	VERB	_	Tense=Fut|VerbForm=Part	3	acl	_	_
+3	myhmançylyk	myhmançylyk	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	gapyny	gapy	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+5	kakypdy	kak	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	ýöne	ýöne	CCONJ	_	_	11	cc	_	_
+8	öý	öý	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	eýesi	eýe	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	11	nsubj	_	_
+10	henizem	henizem	ADV	_	_	11	advmod	_	_
+11	arassalaýardy	arassala	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAf
+
+# sent_id = udtw23-4
+# text = Aýşa lukman.
+# text[en] = Ayşe is a doctor.
+# text[tr] = Ayşe bir doktor.
+1	Aýşa	Aýşa	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	lukman	lukman	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = udtw23-5
+# text = Çözmäge synanyşýan meselemiz kitaphanada bäş kitap üçin hem ýer ýokdugy.
+# text[en] = The (problem) we're trying to solve is that the library doesn't even have room for five books.
+# text[tr] = Çözmeye çalıştığımız sorun kitaplıkta beş kitaplık yer bile olmaması.
+1	Çözmäge	çöz	VERB	_	Case=Dat|Number=Sing|VerbForm=Vnoun	2	advcl	_	_
+2	synanyşýan	synanyş	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Part	3	acl	_	_
+3	meselemiz	mesele	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	10	nsubj:outer	_	_
+4	kitaphanada	kitaphana	NOUN	_	Case=Loc|Number=Sing	10	obl	_	_
+5	bäş	bäş	NUM	_	NumType=Card	6	nummod	_	_
+6	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	üçin	üçin	ADP	_	_	8	case	_	_
+8	hem	hem	ADV	_	_	9	advmod:emph	_	_
+9	ýer	ýer	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+10	ýokdugy	ýok	VERB	_	Aspect=Perf|Mood=Ind|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Pres|VerbForm=Vnoun	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = udtw23-6
+# text = Onuň bibiligi hamala boldy.
+# text[en] = His/her grandmother was a nurse.
+# text[tr] = Anneannesi hemşireydi.
+1	Onuň	ol	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	_	_
+2	bibiligi	bibilik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+3	hamala	hamala	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+4	boldy	bol	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = udtw23-7
+# text = Onda kitaphanadakylar nirede idi?
+# text[en] = So where were the [ones] on the bookshelf?
+# text[tr] = Peki kitaplıktakiler nerede idi?
+1	Onda	onda	ADV	_	_	3	discourse	_	_
+2	kitaphanadakylar	kitaphana	NOUN	_	Case=Nom|Number=Plur	3	nsubj	_	_
+3	nirede	nirede	PRON	_	PronType=Int	0	root	_	_
+4	idi	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = udtw23-9
+# text = Marketde miwe bar, ýöne gowy däl.
+# text[en] = There is fruit in the market, but it's not pretty.
+# text[tr] = Markette meyve var ama güzel değil.
+1	Marketde	market	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+2	miwe	miwe	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	bar	bar	ADJ	_	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	ýöne	ýöne	CCONJ	_	_	7	cc	_	_
+6	gowy	gowy	ADJ	_	_	7	nsubj	_	_
+7	däl	däl	VERB	_	Polarity=Neg	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = udtw23-10
+# text = Deňiz lukman bolar, bil!
+# text[en] = Deniz will be a doctor, (so that) you know!
+# text[tr] = Deniz doktor olacak, bilmiş ol!
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	lukman	lukman	NOUN	_	Case=Nom|Number=Sing	3	xcomp	_	_
+3	bolar	bol	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	bil	bil	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = udtw23-11
+# text = Deňiz uklapdyr.
+# text[en] = Deniz was asleep.
+# text[tr] = Deniz uyumuş idi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	uklapdyr	ukla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = udtw23-12
+# text = Ýygnanyň yglan edilýändigini eşidende gaty geň galandyr öýdýän, maňa seredip durdy.
+# text[en] = He/She must have been so surprised as the meeting was being announced that he/she kept looking at me.
+# text[tr] = Toplantı duyurulurken çok şaşırmış olacak ki bana bakıp durdu.
+1	Ýygnanyň	ýygnak	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+2	yglan	yglan	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
+3	edilýändigini	et	VERB	_	Case=Acc|Tense=Pres|VerbForm=Vnoun|Voice=Pass	4	obj	_	_
+4	eşidende	eşit	VERB	_	Case=Loc|VerbForm=Conv	7	advcl	_	_
+5	gaty	gaty	ADV	_	_	7	advmod	_	_
+6	geň	geň	ADJ	_	_	7	xcomp	_	_
+7	galandyr	gal	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	öýdýän	öýt	VERB	_	Tense=Pres|VerbForm=Part	7	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	maňa	men	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+11	seredip	sere	VERB	_	VerbForm=Conv	7	conj	_	_
+12	durdy	dur	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	Space
+
+# sent_id = udtw23-13
+# text = Hirkam öýdemiş?
+# text[en] = Was my cardigan at home?
+# text[tr] = Hırkam evde miymiş?
+1	Hirkam	hirka	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
+2	öýdemiş	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = udtw23-14
+# text = Çäre şu gün geçirilermi?
+# text[en] = Is the event to be held today?
+# text[tr] = Bugün mü yapılacak etkinlik?
+1	Çäre	çäre	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	şu	şu	DET	_	_	3	det	_	_
+3	gün	gün	NOUN	_	Case=Nom|Number=Sing	4	obl:tmod	_	_
+4	geçirilermi	geçir	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|Voice=Pass	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = udtw23-15
+# text = Netijeler yglan edildi, şeýlemi?
+# text[en] = The results have been announced, haven't they?
+# text[tr] = Sonuçlar açıklanmış, değil mi?
+1	Netijeler	netije	NOUN	_	Case=Nom|Number=Plur	3	nsubj:pass	_	_
+2	yglan	yglan	NOUN	_	Case=Nom|Number=Sing	3	compound:lvc	_	_
+3	edildi	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	şeýlemi	şeýle	PART	_	_	3	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = udtw23-16
+# text = Aýşa bu kitaby okamandyr diýip bolmaz.
+# text[en] = It's not the case that Ayşe hasn't read this book.
+# text[tr] = Ayşe bu kitabı okumamış değil.
+1	Aýşa	Aýşa	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	bu	bu	DET	_	PronType=Dem	3	det	_	_
+3	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+4	okamandyr	oka	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+5	diýip	diý	VERB	_	VerbForm=Conv	7	advcl	_	_
+6	bolmaz	bol	AUX	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
+
+# sent_id = udtw23-17
+# text = Umuman okamakdan däl-de, surat çekmegi halaýar.
+# text[en] = In general, he/she likes to paint, not to read.
+# text[tr] = Genel olarak okumayı değil, resim yapmayı seviyor.
+1	Umuman	umuman	ADV	_	_	3	advmod	_	_
+2	okamakdan	oka	VERB	_	Case=Abl|VerbForm=Vnoun	8	obl	_	_
+3	däl-de	däl	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	surat	surat	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	çekmegi	çek	VERB	_	Case=Acc|VerbForm=Vnoun	8	obj	_	_
+7	halaýar	hala	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = udtw23-18
+# text = Ol olara okaýan zatlaryny däl-de, geljekde okajak zatlaryny aýdýar.
+# text[en] = He/She tells what she will read, not what he/she has read.
+# text[tr] = Okuduklarını değil, okuyacaklarını anlatıyor.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+2	olara	ol	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	12	obl	_	_
+3	okaýan	oka	VERB	_	Tense=Pres|VerbForm=Part	4	acl	_	_
+4	zatlaryny	zat	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	12	obj	_	_
+5	däl	däl	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+6	-de	de	PART	_	_	5	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	geljekde	geljek	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+9	okajak	oka	VERB	_	Tense=Fut|VerbForm=Part	10	acl	_	_
+10	zatlaryny	zat	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	4	conj	_	_
+11	aýdýar	aýt	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = udtw23-19
+# text = Munuň gögüsi has owadan, maňa gögüni berersiňmi?
+# text[en] = The blue [one] of this is prettier, can you give me the blue?
+# text[tr] = Bunun mavisi daha güzel, bana maviyi verir misin?
+1	Munuň	bu	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Dem	2	nmod	_	_
+2	gögüsi	gök	ADJ	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+3	has	has	ADV	_	_	4	advmod	_	_
+4	owadan	owadan	ADJ	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	maňa	men	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+7	gögüni	gök	ADJ	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
+8	berersiňmi	ber	VERB	_	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = udtw23-20
+# text = Ýaşlara ýetip bolmajak maksatlary taşlamalydyrys.
+# text[en] = We must make the young abandon unattainable goals.
+# text[tr] = Gençlere erişilebilir olmayan hedefleri terk ettirmeliyiz.
+1	Ýaşlara	ýaş	NOUN	_	Case=Dat|Number=Plur	4	obl	_	_
+2	ýetip	ýet	VERB	_	VerbForm=Conv	3	advcl	_	_
+3	bolmajak	bol	AUX	_	Polarity=Neg|Tense=Fut|VerbForm=Part	4	acl	_	_
+4	maksatlary	maksat	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
+5	taşlamalydyrys	taşla	VERB	_	Mood=Nec|Number=Plur|Person=1|Voice=Cau	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = udtw23-21
+# text = Mugallym kitaby alyp mekdebe gitdi.
+# text[en] = The teacher took the book and left for school.
+# text[tr] = Öğretmen kitabı alıp okula gitti.
+1	Mugallym	mugallym	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	alyp	al	VERB	_	VerbForm=Conv	4	advcl	_	_
+4	mekdebe	mekdep	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	gitdi	git	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = udtw23-22
+# text = Mugallym kitaby mekdebe äkitdi.
+# text[en] = The teacher took the book to school.
+# text[tr] = Öğretmen kitabı okula götürdü.
+1	Mugallym	mugallym	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+3	mekdebe	mekdep	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+4	äkitdi	äkit	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 1
+# text = Deňiz ukludy.
+# text[en] = Deniz slept.
+# text[tr] = Deniz uyudu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	ukludy	ukla	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2
+# text = Deňiz kitap okaýar.
+# text[en] = Deniz is reading a book.
+# text[tr] = Deniz kitap okuyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	okaýar	oka	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 3
+# text = Deňiz agşamlary öýde kitap okaýar.
+# text[en] = Deniz reads books in the evenings.
+# text[tr] = Deniz akşamları evde kitap okur.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	agşamlary	agşam	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl:tmod	_	_
+3	öýde	öý	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
+4	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	okaýar	oka	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 4
+# text = Deňiz dogansyna kitaby berdi.
+# text[en] = Deniz gave the book to his/her sister/brother.
+# text[tr] = Deniz kardeşine kitabı verdi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	dogansyna	dogan	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	iobj	_	_
+3	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	berdi	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 5
+# text = Deňiz kitaby öýe äkitdi.
+# text[en] = Deniz took the book home.
+# text[tr] = Deniz kitabı eve götürdü.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obj	_	_
+3	öýe	öý	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+4	äkitdi	äkit	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 6
+# text = Mugallym çagalara sapak berdi.
+# text[en] = The teacher lectured the children.
+# text[tr] = Öğretmen çocuklara ders verdi.
+1	Mugallym	mugallym	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	çagalara	çaga	NOUN	_	Case=Dat|Number=Plur	4	obl	_	_
+3	sapak	sapak	NOUN	_	Case=Nom|Number=Sing	4	obj	_	_
+4	berdi	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 7
+# text = Deňiz dostuna bir kitap satyn aldy.
+# text[en] = Deniz bought a book for her/his friend.
+# text[tr] = Deniz arkadaşına bir kitap aldı.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	dostuna	dost	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	_
+3	bir	bir	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+5	satyn	satyn	ADV	_	_	6	compound:lvc	_	_
+6	aldy	al	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 8
+# text = Deňiz dogany bilen barşydy.
+# text[en] = Deniz made peace with her sister/brother.
+# text[tr] = Deniz kardeşiyle barıştı.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	dogany	dogan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+3	bilen	bilen	ADP	_	_	2	case	_	_
+4	barşydy	barş	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 9
+# text = Deňiz dostlaryndan zeýlenýär.
+# text[en] = Deniz is complaining about his/her friend.
+# text[tr] = Deniz arkadaşlarından yakınıyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	dostlaryndan	dost	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	zeýlenýär	zeýlen	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 10
+# text = Deňiz ir uklady.
+# text[en] = Deniz slept early.
+# text[tr] = Deniz erkenden uyudu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	ir	ir	ADV	_	_	3	advmod	_	_
+3	uklady	ukla	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 11
+# text = Deňiz dostunyň bişiren naharynyň iki tabagyny iýdi.
+# text[en] = Deniz ate two plates from (of) the meal his/her friend cooked.
+# text[tr] = Deniz arkadaşının yaptığı yemekten iki tabak yedi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	dostunyň	dost	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+3	bişiren	bişir	VERB	_	Aspect=Perf|Mood=Ind|Tense=Past|VerbForm=Part	4	acl	_	_
+4	naharynyň	nahar	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+5	iki	iki	NUM	_	NumType=Card	6	nummod	_	_
+6	tabagyny	tabak	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
+7	iýdi	iý	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 12
+# text = Deňiz üç sagat uklady.
+# text[en] = Deniz slept for three hours.
+# text[tr] = Deniz üç saat uyudu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	üç	üç	NUM	_	NumType=Card	3	nummod	_	_
+3	sagat	sagat	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+4	uklady	ukla	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 13
+# text = Deňiz gaty çalt.
+# text[en] = Deniz is very fast.
+# text[tr] = Deniz çok hızlı.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	gaty	gaty	ADV	_	_	3	advmod	_	_
+3	çalt	çalt	ADJ	_	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 14
+# text = Deňiz okuwçy.
+# text[en] = Deniz is a student.
+# text[tr] = Deniz öğrenci.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	okuwçy	okuwçy	NOUN	_	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 16
+# text = Deňiz lukman bolar.
+# text[en] = Deniz will become a doctor.
+# text[tr] = Deniz doktor olacak.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	lukman	lukman	NOUN	_	Case=Nom|Number=Sing	3	xcomp	_	_
+3	bolar	bol	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 17
+# text = Deňiz öýde.
+# text[en] = Deniz is at home.
+# text[tr] = Deniz evde.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýde	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 18
+# text = Deňiz öýdedi.
+# text[en] = Deniz was at home.
+# text[tr] = Deniz evdeydi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýdedi	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 19
+# text = Deňiz öýde idi.
+# text[en] = Deniz was at home.
+# text[tr] = Deniz evde idi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýde	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	idi	i	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 20
+# text = Sowgat Deňiz üçindi.
+# text[en] = The present was for Deniz.
+# text[tr] = Hediye Deniz içindi.
+1	Sowgat	sowgat	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	obl	_	_
+3	üçindi	üçin	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 21
+# text = Deňiz uklapdyr.
+# text[en] = Deniz had slept.
+# text[tr] = Deniz uyumuştu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	uklapdyr	ukla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 22
+# text = Deňiz uklapdyr.
+# text[en] = Deniz had slept.
+# text[tr] = Deniz uyumuş idi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	uklapdyr	ukla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 23
+# text = Deňiz uklan bolar.
+# text[en] = Deniz will have been asleep.
+# text[tr] = Deniz uyumuş olacak.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	uklan	ukla	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	_
+3	bolar	bol	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut	2	aux	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 24
+# text = Ejesiniň arzuwy Denziň gowy mekdepde okamagydydy.
+# text[en] = His/her mother's dream was for Deniz to study in a good school.
+# text[tr] = Annesinin hayali Deniz'in iyi bir okulda okumasıydı.
+1	Ejesiniň	eje	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	2	nmod	_	_
+2	arzuwy	arzu	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	nsubj	_	_
+3	Denziň	Deniz	PROPN	_	Case=Gen|Number=Sing	4	nsubj	_	_
+4	gowy	gowy	ADJ	_	_	5	amod	_	_
+5	mekdepde	mekdep	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+6	okamagy	oka	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	0	root	_	_
+7	dy	_	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	cop	_	_
+8	dy	_	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	cop	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 25
+# text = Deniziň gowy mekdepde okamagy ejesini aladalandyrýardy.
+# text[en] = The fact that Deniz did not study in a good school worried her mother.
+# text[tr] = Deniz'in iyi bir okulda okumaması annesini kaygılandırıyordu.
+1	Deniziň	Deniz	PROPN	_	Case=Gen|Number=Sing	5	nmod	_	_
+2	gowy	gowy	ADJ	_	_	3	amod	_	_
+3	mekdepde	mekdep	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+4	okamagy	oka	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|VerbForm=Vnoun	7	csubj	_	_
+5	ejesini	eje	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obj	_	_
+6	aladalandyrýardy	aladalandy	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Cau	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 26
+# text = Stolda köp kitap bar, kitap şkafynda ýok.
+# text[en] = There are many books on the table, none in the bookshelf.
+# text[tr] = Masada çok kitap var, kitaplıkta yok.
+1	Stolda	stol	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+2	köp	köp	ADV	_	_	3	advmod	_	_
+3	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	bar	bar	ADJ	_	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	7	compound	_	_
+7	şkafynda	şkaf	NOUN	_	Case=Loc|Number=Sing|Person[psor]=3|Number[psor]=Sing	8	obl	_	_
+8	ýok	ýok	ADJ	_	Polarity=Neg	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 27
+# text = Deniziň hiç kitaby ýok.
+# text[en] = Deniz does not have any books.
+# text[tr] = Deniz'in hiç kitabı yok.
+1	Deniziň	Deniz	PROPN	_	Case=Gen|Number=Sing	3	nmod	_	_
+2	hiç	hiç	ADV	_	_	3	advmod	_	_
+3	kitaby	kitap	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+4	ýok	ýok	ADJ	_	Polarity=Neg	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 28
+# text = Deňiz öýde däldi.
+# text[en] = Deniz was not at home.
+# text[tr] = Deniz evde değildi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýde	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	däldi	däl	VERB	_	Polarity=Neg|Tense=Past|Number=Sing|Person=3|Mood=Ind	2	cop	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 29
+# text = Deňiz wagtynda uklamaýar.
+# text[en] = Deniz does not sleep on time.
+# text[tr] = Deniz zamanında uyumuyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	wagtynda	wagt	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl:tmod	_	_
+3	uklamaýar	ukla	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 30
+# text = Deňiz uklap bilmeýär.
+# text[en] = Deniz cannot sleep.
+# text[tr] = Deniz uyuyamıyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	uklap	ukla	VERB	_	VerbForm=Conv	3	advcl	_	_
+3	bilmeýär	bil	AUX	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 31
+# text = Deňiz wagtynda uklap bilmez.
+# text[en] = Deniz may not be able to sleep on time.
+# text[tr] = Deniz zamanında uyuyamayabilir.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	wagtynda	wagt	NOUN	_	Case=Loc|Number=Sing|Person[psor]=3|Number[psor]=Sing	4	obl:tmod	_	_
+3	uklap	ukla	VERB	_	VerbForm=Conv	4	advcl	_	_
+4	bilmez	bil	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 32
+# text = Deňiz ejesini görmän galdy.
+# text[en] = (It turned out that) Deniz did not see her/his mother.
+# text[tr] = Deniz annesini görmemiş oldu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	ejesini	eje	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	görmän	gör	VERB	_	Polarity=Neg|VerbForm=Conv	4	advcl	_	_
+4	galdy	gal	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 33
+# text = Deňiz ejesini görmedi.
+# text[en] = (It turned out that) Deniz did not see her/his mother.
+# text[tr] = Deniz annesini görmüş olmadı.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	ejesini	eje	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	görmedi	gör	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 34
+# text = Deňiz ejesini görmän galmady.
+# text[en] = (It turned out that) Deniz did not not-see her/his mother.
+# text[tr] = Deniz annesini görmemiş olmadı.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	ejesini	eje	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	görmän	gör	VERB	_	Polarity=Neg|VerbForm=Conv	4	advcl	_	_
+4	galmady	gal	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 35
+# text = Okaýanlaryna düşünmeýär.
+# text[en] = He/she does not understand things he/she reads.
+# text[tr] = Okuduklarını anlamıyor.
+1	Okaýanlaryna	oka	VERB	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3|Tense=Pres|VerbForm=Part	2	ccomp	_	_
+2	düşünmeýär	düşün	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 36
+# text = Ol okaýan zatlaryny düşünmeýär.
+# text[en] = He/she does not understand things he/she reads.
+# text[tr] = Okuduklarını anlıyor değil.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	okaýan	oka	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
+3	zatlaryny	zat	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obj	_	_
+4	düşünmeýär	düşün	VERB	_	Aspect=Prog|Mood=Ind|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 37
+# text = Okanlarynyň manysyna düşünmeýär diýmek däl.
+# text[en] = It is not that he/she does not understand things he/she reads.
+# text[tr] = Okuduklarını anlamıyor değil.
+1	Okanlarynyň	oka	VERB	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	2	nmod	_	_
+2	manysyna	many	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obl	_	_
+3	düşünmeýär	düşün	VERB	_	Aspect=Hab|Mood=Ind|Polarity=Neg|Tense=Pres	4	ccomp	_	_
+4	diýmek	diý	VERB	_	VerbForm=Vnoun	0	root	_	_
+5	däl	däl	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 38
+# text = Okamany däl, surat çekmegi halaýar.
+# text[en] = (He/she does) not (like) reading, (but) he/she likes painting.
+# text[tr] = Okumayı değil, resim yapmayı seviyor.
+1	Okamany	oka	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	6	xcomp	_	_
+2	däl	däl	PART	_	Polarity=Neg	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	surat	surat	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	çekmegi	çek	VERB	_	Case=Acc|Number=Sing|VerbForm=Vnoun	1	conj	_	_
+6	halaýar	hala	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 39
+# text = Deňiz otagda däldi.
+# text[en] = Deniz was not in the room.
+# text[tr] = Deniz odada değildi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	otagda	otag	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	däldi	däl	VERB	_	Polarity=Neg|Tense=Past|Number=Sing|Person=3|Mood=Ind	2	cop	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 40
+# text = Deňiz otagda ýokdy.
+# text[en] = Deniz was not in the room.
+# text[tr] = Deniz odada yoktu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	otagda	otag	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+3	ýokdy	ýok	VERB	_	Polarity=Neg|Tense=Past|Number=Sing|Person=3|Mood=Ind	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 41
+# text = Deňiz kitap okamak isleýär.
+# text[en] = Deniz wants to read books.
+# text[tr] = Deniz kitap okumak istiyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	okamak	oka	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	4	xcomp	_	_
+4	isleýär	isle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 42
+# text = Deňiz kitap okamak isleýär.
+# text[en] = Deniz wants to read books.
+# text[tr] = Deniz kitap okumayı istiyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	okamak	oka	VERB	_	VerbForm=Inf	4	ccomp	_	_
+4	isleýär	isle	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 43
+# text = Deňiz kakasynyň oňa kitap okamagyny isleýär.
+# text[en] = Deniz wants her/his father to read him/her (a) book.
+# text[tr] = Deniz babasının kendisine kitap okumasını istiyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	kakasynyň	kaka	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+3	oňa	ol	PRON	_	Case=Dat|Number=Sing|Person=3	5	obl	_	_
+4	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	okamagyny	oka	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	6	ccomp	_	_
+6	isleýär	isle	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 44
+# text = Deňiz özi-özüni bolmagy halaýar.
+# text[en] = Deniz wants to be by himself/herself.
+# text[tr] = Deniz kendi kendine olmayı seviyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	özi-özüni	öz	PRON	_	Case=Acc|Number=Sing|Person=3|Reflex=Yes	3	obl	_	_
+3	bolmagy	bol	AUX	_	Case=Acc|Number=Sing|VerbForm=Vnoun	5	ccomp	_	_
+4	halaýar	hala	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 45
+# text = Ejesiniň kitap okamagy Deniziň uklamagyny aňsatlaşdyrýar.
+# text[en] = When her/his mother reads, it becomes easier for Deniz to sleep.
+# text[tr] = Annesinin kitap okuması Deniz'in uyumasını kolaylaştırıyor.
+1	Ejesiniň	eje	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	nsubj	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	okamagy	oka	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	6	csubj	_	_
+4	Deniziň	Deniz	PROPN	_	Case=Gen|Number=Sing	5	nsubj	_	_
+5	uklamagyny	ukla	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	6	ccomp	_	_
+6	aňsatlaşdyrýar	aňsatlaş	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 46
+# text = Çagalara kitap okamak olaryň ösüşi üçin möhümdir.
+# text[en] = Reading to children is important for their development.
+# text[tr] = Çocuklara kitap okumak gelişimleri için önemli.
+1	Çagalara	çaga	NOUN	_	Case=Dat|Number=Plur	3	obl	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	okamak	oka	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	7	csubj	_	_
+4	olaryň	ol	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+5	ösüşi	ösüş	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+6	üçin	üçin	ADP	_	_	5	case	_	_
+7	möhümdir	möhüm	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 47
+# text = Deňiz kitap okap uklap ýatyr.
+# text[en] = Deniz reads before sleep (lit: Deniz sleeps by reading).
+# text[tr] = Deniz kitap okuyarak uyuyor.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	3	obj	_	_
+3	okap	oka	VERB	_	VerbForm=Conv	5	advcl	_	_
+4	uklap	ukla	VERB	_	VerbForm=Conv	5	advcl	_	_
+5	ýatyr	ýat	AUX	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 48
+# text = Deniz dynç alyş güni bolandygyny ýatdan çykarypdy we mekdebe gidendir.
+# text[en] = Deniz (evidentially) went to school (because) she/he had forgotten that it was holiday.
+# text[tr] = Deniz tatil olduğunu unutup okula gitmiş.
+1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+2	dynç	dynç	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
+3	alyş	alyş	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
+4	güni	gün	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+5	bolandygyny	bol	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Vnoun	7	ccomp	_	_
+6	ýatdan	ýat	NOUN	_	Case=Abl|Number=Sing	7	obl	_	_
+7	çykarypdy	çykarmak	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	8	advcl	_	_
+8	we	we	CCONJ	_	_	0	root	_	_
+9	mekdebe	mekdep	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
+10	gidendir	gitmek	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 50
+# text = Deňiz giç ýatsa, mekdebe giç galar.
+# text[en] = If Deniz sleeps late, he/she would be late.
+# text[tr] = Deniz geç uyursa okula geç kalır.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	giç	giç	ADV	_	_	3	advmod	_	_
+3	ýatsa	ýat	VERB	_	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin	6	advcl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mekdebe	mekdep	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
+6	giç	giç	ADV	_	_	7	advmod	_	_
+7	galar	gal	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 51
+# text = Deňiz giç ýatsa, mekdebe giç galar.
+# text[en] = If Deniz sleeps late, he/she will be late.
+# text[tr] = Deniz geç uyursa okula geç kalacak.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	giç	giç	ADV	_	_	3	advmod	_	_
+3	ýatsa	ýat	VERB	_	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin	6	advcl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mekdebe	mekdep	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
+6	giç	giç	ADV	_	_	7	advmod	_	_
+7	galar	gal	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 52
+# text = Çaga uklan bolsa, film görerdik.
+# text[en] = If the child had slept, we'd watch a movie.
+# text[tr] = Çocuk uyumuş olsaydı film izleyecektik.
+1	Çaga	çaga	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	uklan	ukla	VERB	_	Tense=Past|VerbForm=Part	3	ccomp	_	_
+3	bolsa	bol	AUX	_	Mood=Cnd|Number=Sing|Person=3	6	advcl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	film	film	NOUN	_	Case=Nom|Number=Sing	6	obj	_	_
+6	görerdik	gör	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 53
+# text = Eger çaga öýe gelmezden ozal uklaýan bolsa, gelende ony oýarmaly bolarys.
+# text[en] = If the child sleeps before we arrive home, we will need to wake him/her up.
+# text[tr] = Eğer çocuk eve gitmeden uyursa vardığımızda uyandırmamız gerekecek.
+1	Eger	eger	SCONJ	_	_	7	mark	_	_
+2	çaga	çaga	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+3	öýe	öý	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+4	gelmezden	gel	VERB	_	Polarity=Neg|VerbForm=Conv	7	advcl	_	_
+5	ozal	ozal	ADV	_	_	4	advmod	_	_
+6	uklaýan	ukla	VERB	_	Tense=Pres|VerbForm=Part	7	xcomp	_	_
+7	bolsa	bol	AUX	_	Mood=Cnd|Number=Sing|Person=3	13	advcl	_	_
+8	gelende	gel	VERB	_	Case=Loc|VerbForm=Vnoun	13	advcl	_	_
+9	ony	ol	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	oýarmaly	oýar	VERB	_	VerbForm=Vnoun|Voice=Cau	13	ccomp	_	_
+11	bolarys	bol	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	10	cop	_	_
+12	.	.	PUNCT	_	_	13	punct	_	_
+13	bolarys	bol	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	0	root	_	_
+
+# sent_id = 54
+# text = Goý gel.
+# text[en] = Nevermind.
+# text[tr] = Boş ver.
+1	Goý	goý	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	0	root	_	_
+2	gel	gel	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	1	compound:svc	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 55
+# text = Goý gel.
+# text[en] = Nevermind.
+# text[tr] = Boşver.
+1	Goý	goý	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	0	root	_	_
+2	gel	gel	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	1	compound:svc	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 56
+# text = Çaganyň ir ýatjakdygyny pikir edýärin.
+# text[en] = I think that the child will sleep early.
+# text[tr] = Çocuğun erken uyuyacağını zannediyorum.
+1	Çaganyň	çaga	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+2	ir	ir	ADV	_	_	3	advmod	_	_
+3	ýatjakdygyny	ýat	VERB	_	Case=Acc|Number[psor]=Sing|Person[psor]=3|Tense=Fut|VerbForm=Vnoun	4	obj	_	_
+4	pikir	pikir	NOUN	_	Case=Nom|Number=Sing	5	compound:lvc	_	_
+5	edýärin	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 57
+# text = Deniz doganyny ýigrenýär.
+# text[en] = Deniz hates his/her brother/sister.
+# text[tr] = Deniz kardeşinden nefret ediyor.
+1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	doganyny	dogan	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	3	obj	_	_
+3	ýigrenýär	ýigren	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 58
+# text = Ertiri sabyrsyzlyk bilen garaşýaryn.
+# text[en] = I am looking forward to tomorrow.
+# text[tr] = Yarını iple çekiyorum.
+1	Ertiri	ertir	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+2	sabyrsyzlyk	sabyrsyzlyk	NOUN	_	Case=Nom|Number=Sing	4	obl	_	_
+3	bilen	bilen	ADP	_	_	2	case	_	_
+4	garaşýaryn	garaşmak	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 59
+# text = Hassahana halkyň hyzmatyna berildi.
+# text[en] = The hospital was made available to the public.
+# text[tr] = Hastane halkın hizmetine sunuldu.
+1	Hassahana	hassahana	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+2	halkyň	halk	NOUN	_	Case=Gen|Number=Sing	3	nmod	_	_
+3	hyzmatyna	hyzmat	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	obl	_	_
+4	berildi	ber	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 60
+# text = Uly öýdäki çaga kitap okaýar.
+# text[en] = The child in the big house is reading (a) book.
+# text[tr] = Büyük evdeki çocuk kitap okuyor.
+1	Uly	uly	ADJ	_	_	2	amod	_	_
+2	öýdäki	öý	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
+3	çaga	çaga	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+4	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	5	obj	_	_
+5	okaýar	oka	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 61
+# text = Uly öýdäki kitap okaýar.
+# text[en] = The one in the big house is reading (a) book.
+# text[tr] = Büyük evdeki kitap okuyor.
+1	Uly	uly	ADJ	_	_	2	amod	_	_
+2	öýdäki	öý	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
+3	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	okaýar	oka	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 62
+# text = Uly öýdäki çaganyň saçlary sary, kiçi öýdäkiniňki goňur.
+# text[en] = The hair of the child in the big house is blond, the one of the one in the small house is brown.
+# text[tr] = Büyük evdeki çocuğun saçları sarı, küçük evdekininki kahverengi.
+1	Uly	uly	ADJ	_	_	2	amod	_	_
+2	öýdäki	öý	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
+3	çaganyň	çaga	NOUN	_	Case=Gen|Number=Sing	4	nmod	_	_
+4	saçlary	saç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+5	sary	sary	ADJ	_	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	kiçi	kiçi	ADJ	_	_	8	amod	_	_
+8	öýdäkiniňki	öý	NOUN	_	Case=Loc|Number=Sing	9	nmod	_	_
+9	goňur	goňur	ADJ	_	_	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 63
+# text = Soganlary goýy gülgüne öwrülýänçä gowuryň.
+# text[en] = Fry the onions until they become dark pink.
+# text[tr] = Soğanları koyu pembeleşinceye kadar kavurun.
+1	Soganlary	sogan	NOUN	_	Case=Acc|Number=Plur	5	obj	_	_
+2	goýy	goýy	ADJ	_	_	3	amod	_	_
+3	gülgüne	gülgün	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+4	öwrülýänçä	öwrül	VERB	_	VerbForm=Conv	5	advcl	_	_
+5	gowuryň	gowur	VERB	_	Mood=Imp|Number=Plur|Person=2	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 64
+# text = Öýüň öňünde üç awtoulag üçin duralga bar.
+# text[en] = There is a three-car parking place in front of the house.
+# text[tr] = Evin önünde üç arabalık park yeri var.
+1	Öýüň	öý	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	_
+2	öňünde	öň	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obl	_	_
+3	üç	üç	NUM	_	NumType=Card	4	nummod	_	_
+4	awtoulag	awtoulag	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+5	üçin	üçin	ADP	_	_	7	case	_	_
+6	duralga	duralga	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+7	bar	bar	ADJ	_	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 65
+# text = Mukaddes kitapsyz dinler hem bar.
+# text[en] = There are religions without holy books.
+# text[tr] = Kutsal kitapsız dinler de var.
+1	Mukaddes	mukaddes	ADJ	_	_	2	amod	_	_
+2	kitapsyz	kitapsyz	ADJ	_	Polarity=Neg	3	amod	_	_
+3	dinler	din	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+4	hem	hem	ADV	_	_	3	advmod:emph	_	_
+5	bar	bar	ADJ	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 66
+# text = Kiçi penjireli öýde ýeterlik yşyk ýok.
+# text[en] = There is not enough light in the house with small windows.
+# text[tr] = Küçük pencereli evde yeterince ışık yok.
+1	Kiçi	kiçi	ADJ	_	_	2	amod	_	_
+2	penjireli	penjire	NOUN	_	Case=Nom|Number=Sing	3	amod	_	_
+3	öýde	öý	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+4	ýeterlik	ýeterlik	ADJ	_	_	5	amod	_	_
+5	yşyk	yşyk	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+6	ýok	ýok	ADJ	_	Polarity=Neg	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 67
+# text = Deňiz öýe geldi mi?
+# text[en] = Did Deniz come home?
+# text[tr] = Deniz eve geldi mi?
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	öýe	öý	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
+3	geldi	gel	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+4	mi	mi	PART	_	_	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 68
+# text = Deňiz öýe gelipdimi?
+# text[en] = Had Deniz come home?
+# text[tr] = Deniz eve gelmiş miydi?
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	öýe	öý	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
+3	gelipdi	gel	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	mi	mi	PART	_	PronType=Int	3	discourse	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 69
+# text = Deňiz öýdemi?
+# text[en] = Is Deniz at home?
+# text[tr] = Deniz evde mi?
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýdemi	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 70
+# text = Deňiz öýdemi?
+# text[en] = Is Deniz at home?
+# text[tr] = Deniz evde midir?
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýdemi	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 71
+# text = Deniz öýde boldumy?
+# text[en] = Was Deniz at home?
+# text[tr] = Deniz evde miydi?
+1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	öýde	öý	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+3	boldumy	bol	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 72
+# text = Deňiz öýde dälmidi?
+# text[en] = Was Deniz not at home?
+# text[tr] = Deniz evde değil miydi?
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+2	öýde	öý	NOUN	_	Case=Loc|Number=Sing	0	root	_	_
+3	dälmidi	däl	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	2	cop	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 73
+# text = Deňiz öýde ýokmy?
+# text[en] = Is Deniz not at home?
+# text[tr] = Deniz evde yok mu?
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	öýde	öý	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+3	ýokmy	ýok	VERB	_	Mood=Int|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 74
+# text = Öýde çörek barmy?
+# text[en] = Is there (any) bread at home?
+# text[tr] = Evde ekmek var mı?
+1	Öýde	öý	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+2	çörek	çörek	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	barmy	bar	ADJ	_	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 75
+# text = Öýde çörek barmy?
+# text[en] = Is there (any) bread at home?
+# text[tr] = Evde mi ekmek var?
+1	Öýde	öý	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+2	çörek	çörek	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	barmy	bar	ADJ	_	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 76
+# text = Öýde çörek barmy?
+# text[en] = Is there (any) bread at home?
+# text[tr] = Evde ekmek mi var?
+1	Öýde	öý	NOUN	_	Case=Loc|Number=Sing	3	obl	_	_
+2	çörek	çörek	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	barmy	bar	ADJ	_	Polarity=Pos	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 77
+# text = Okanyňyzy düşünýärdiňizmi?
+# text[en] = Were you understanding what you read?
+# text[tr] = Okuduğunuzu anlıyor muydunuz?
+1	Okanyňyzy	oka	VERB	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Part	2	ccomp	_	_
+2	düşünýärdiňizmi	düşün	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 78
+# text = Ertir Deňiz kitaby Aýhana berdimy?
+# text[en] = Did Deniz give the book to Ayhan in the morning?
+# text[tr] = Sabah Deniz kitabı Ayhan'a verdi mi?
+1	Ertir	ertir	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
+2	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	5	obj	_	_
+4	Aýhana	Aýhan	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	berdimy	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 79
+# text = Sabah Deniz kitaby Ayhana berdi mi?
+# text[en] = Did Deniz give the book to Ayhan in the morning?
+# text[tr] = Sabah Deniz mi kitabı Ayhan'a verdi?
+1	Sabah	sabah	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
+2	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	5	obj	_	_
+4	Ayhana	Ayhan	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	berdi	ber	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+6	mi	mi	PART	_	PronType=Int	5	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 80
+# text = Sabah Deňiz kitaby Aýhana berdiми?
+# text[en] = Did Deniz give the book to Ayhan in the morning?
+# text[tr] = Sabah Deniz kitabı mı Ayhan'a verdi?
+1	Sabah	sabah	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
+2	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	5	obj	_	_
+4	Aýhana	Aýhan	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	berdiми	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 81
+# text = Ertir Deňiz kitaby Aýhana berdiми?
+# text[en] = Did Deniz give the book to Ayhan in the morning?
+# text[tr] = Sabah Deniz kitabı Ayhan'a mı verdi?
+1	Ertir	ertir	NOUN	_	Case=Nom|Number=Sing	5	obl:tmod	_	_
+2	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	5	obj	_	_
+4	Aýhana	Aýhan	PROPN	_	Case=Dat|Number=Sing	5	obl	_	_
+5	berdi	ber	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	mi	mi	PART	_	_	5	discourse	_	SpaceAfter=No
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 82
+# text = Deniz şu irden Ayhana kitaby berdi mi?
+# text[en] = Did Deniz give the book to Ayhan in the morning?
+# text[tr] = Deniz kitabı Ayhan'a sabah mı verdi?
+1	Deniz	Deniz	PROPN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	şu	şu	DET	_	_	3	det	_	_
+3	irden	irden	NOUN	_	Case=Abl|Number=Sing	6	obl:tmod	_	_
+4	Ayhana	Ayhan	PROPN	_	Case=Dat|Number=Sing	6	obl	_	_
+5	kitaby	kitap	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	6	obj	_	_
+6	berdi	ber	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+7	mi	mi	PART	_	_	6	discourse	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 83
+# text = Maňa gök reňkini berersiňmi?
+# text[en] = Can you give me the blue one?
+# text[tr] = Bana maviyi verir misin?
+1	Maňa	men	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+2	gök	gök	ADJ	_	_	3	amod	_	_
+3	reňkini	reňk	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	4	obj	_	_
+4	berersiňmi	ber	VERB	_	Mood=Int|Number=Sing|Person=2|Polarity=Pos|Tense=Fut	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 84
+# text = Munuň gögüsi has owadan.
+# text[en] = The blue (version) of this is nicer.
+# text[tr] = Bunun mavisi daha güzel.
+1	Munuň	bu	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Dem	2	nmod	_	_
+2	gögüsi	gök	ADJ	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	_
+3	has	has	ADV	_	_	4	advmod	_	_
+4	owadan	owadan	ADJ	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 85
+# text = Meniň awtoulagym Deňziziňkiniň mawysy.
+# text[en] = My car is the blue (version) of Deniz'.
+# text[tr] = Benim arabam Deniz'inkinin mavisi.
+1	Meniň	men	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+2	awtoulagym	awtolag	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj	_	_
+3	Deňziziňkiniň	Deňziz	PROPN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
+4	mawysy	mawy	ADJ	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 86
+# text = Kitap okalýar.
+# text[en] = The book is being read.
+# text[tr] = Kitap okunuyor.
+1	Kitap	kitap	NOUN	_	Case=Nom|Number=Sing	2	nsubj:pass	_	_
+2	okalýar	oka	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 87
+# text = Kitap ähli mekdeplerde öwrediler.
+# text[en] = The book will be made to be made to be read in all schools.
+# text[tr] = Kitap bütün okullarda okutturulacak.
+1	Kitap	kitap	NOUN	_	Case=Nom|Number=Sing	4	nsubj:pass	_	_
+2	ähli	ähli	DET	_	_	3	det	_	_
+3	mekdeplerde	mekdep	NOUN	_	Case=Loc|Number=Plur	4	obl	_	_
+4	öwrediler	öwret	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 88
+# text = Deňiz ukladyldy.
+# text[en] = Deniz was made to sleep.
+# text[tr] = Deniz uyutuldu.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	2	nsubj:pass	_	_
+2	ukladyldy	ukla	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 89
+# text = Olar gitdiler.
+# text[en] = They left.
+# text[tr] = Onlar gitti.
+1	Olar	ol	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	gitdiler	git	VERB	_	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 90
+# text = Ol gitdi.
+# text[en] = He/She left.
+# text[tr] = O gitti.
+1	Ol	ol	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gitdi	git	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 91
+# text = Deňiz bu ýerlere gelýärdi, boş wagtlarynda kitap okaýardy.
+# text[en] = Deniz used to come here and read a book in her free time.
+# text[tr] = Deniz buralara gelir, boş vakitlerinde kitap okur idi.
+1	Deňiz	Deňiz	PROPN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	bu	bu	DET	_	_	3	det	_	_
+3	ýerlere	ýer	NOUN	_	Case=Dat|Number=Plur	4	obl	_	_
+4	gelýärdi	gel	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	boş	boş	ADJ	_	_	7	amod	_	_
+7	wagtlarynda	wagt	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	9	obl:tmod	_	_
+8	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
+9	okaýardy	oka	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 92
+# text = Sen hem biziň bilen gelýärsiň, şeýlemi?
+# text[en] = You are coming with us, aren't you?
+# text[tr] = Sen de bizimle geliyorsun, değil mi?
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+2	hem	hem	ADV	_	_	1	advmod:emph	_	_
+3	biziň	biz	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod	_	_
+4	bilen	bilen	ADP	_	_	5	obl	_	_
+5	gelýärsiň	gel	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	şeýlemi	şeýle	PART	_	PronType=Int	5	discourse	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 94
+# text = Sen öňki arassalamagy gutardan soň, ütükleme işini ederis.
+# text[en] = You finish the cleaning first, then we will handle the ironing.
+# text[tr] = Sen önce temizliği bitir de ütüyü hallederiz.
+1	Sen	sen	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+2	öňki	öňki	ADJ	_	_	3	amod	_	_
+3	arassalamagy	arassalamak	NOUN	_	Case=Acc|Number=Sing	4	obj	_	_
+4	gutardan	gutarmak	VERB	_	VerbForm=Conv	7	advcl	_	_
+5	soň	soň	ADP	_	_	4	case	_	_
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	ütükleme	ütüklemek	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
+8	işini	iş	NOUN	_	Case=Acc|Number=Sing|Person[psor]=3|Number[psor]=Sing	9	obj	_	_
+9	ederis	etmek	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 95
+# text = Aýdyşyna görä, Aýşe Hakanyň öý işini ýerine ýetirmegine kömek edipdir.
+# text[en] = Seemingly Ayşe helped Hakan do his homework.
+# text[tr] = Sözde Ayşe Hakan'ın ödevi yapmasına yardım etmişmiş.
+1	Aýdyşyna	aýt	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	2	obl	_	_
+2	görä	görä	ADP	_	_	9	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Aýşe	Aýşe	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+5	Hakanyň	Hakan	PROPN	_	Case=Gen|Number=Sing	7	nmod	_	_
+6	öý	öý	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
+7	işini	iş	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	8	obj	_	_
+8	ýerine	ýer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	9	obl	_	_
+9	ýetirmegine	ýetir	VERB	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3|VerbForm=Vnoun	11	advcl	_	_
+10	kömek	kömek	NOUN	_	Case=Nom|Number=Sing	11	compound:lvc	_	_
+11	edipdir	et	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	Space
+
+# sent_id = 96
+# text = Umuman üstünlikli film boldy.
+# text[en] = It was a successful film overall.
+# text[tr] = Genel olarak başarılı bir filmdi.
+1	Umuman	umuman	ADV	_	_	2	advmod	_	_
+2	üstünlikli	üstünlikli	ADJ	_	_	3	amod	_	_
+3	film	film	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	_
+4	boldy	bol	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 97
+# text = Alma agaçlary aprel-maý aýlarynda gülleýär we özara tozlanýar.
+# text[en] = Apple trees bloom (approximately) April to May and cross-pollinate.
+# text[tr] = Elma ağaçları Nisan-Mayıs aylarında çiçek açıp, karşılıklı tozlaşır.
+1	Alma	alma	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
+2	agaçlary	agaç	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
+3	aprel	aprel	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	maý	maý	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
+6	aýlarynda	aý	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person[psor]=3	7	obl	_	_
+7	gülleýär	gülle	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+8	we	we	CCONJ	_	_	10	cc	_	_
+9	özara	özara	ADV	_	_	10	advmod	_	_
+10	tozlanýar	tozlan	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+
