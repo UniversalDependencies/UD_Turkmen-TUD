@@ -24,7 +24,7 @@ The treebank data was derived by translating sentences from the following Turkis
 
 1. Source sentences from the Turkish UD treebanks listed above were translated into Turkmen.
 2. Annotations (POS tags, morphological features, dependency relations) were projected through silver annotation via cross-lingual transfer.
-3. Language-specific annotation guidelines for Turkmen were developed following UD v2 conventions (see `turkmen_ud.md`).
+3. Language-specific annotation guidelines for Turkmen were developed following UD v2 conventions (see [here](https://universaldependencies.org/tk/index.html)).
 
 # Data Splits
 
@@ -84,7 +84,7 @@ XPOS: not available
 Features: automatic
 Relations: automatic
 Contributors: Hakimov, Sherzod
-Contributing: github
+Contributing: elsewhere
 Contact: sherzodhakimov@gmail.com
 ===============================================================================
 </pre>
